@@ -5,7 +5,7 @@ public class PersonDto {
     private int personId;
     private String fullName;
 
-    public PersonDto(int personId, String fullName) {
+    public PersonDto(int personId, String fullName, String lastName) {
         this.personId = personId;
         this.fullName = fullName;
     }
